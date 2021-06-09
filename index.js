@@ -1,29 +1,9 @@
 
 
-var calculator = (function() {
-    
-    var add = function (a, b) {
-        return a+b;
-    }
-
-    var subtract = function (a, b) {
-        return a - b;
-    }
-
-    var multiply = function (a, b) {
-        return a * b;
-    }
-
-    var divide = function (a, b) {
-        return a / b;
-    }
-    
-    return {
-        add,
-        multiply,
-        subtract,
-        divide
-    }; 
-}) ();
+function calculator (num1, num2 ) 
+{
+    let sum = num1 + num2;    
+    return sum;
+}
 
 module.exports.calculator = calculator;
